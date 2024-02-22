@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.titulo {
+    text-align: center;
+}
+form {
+    width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+input[type="text"], input[type="date"], input[type="number"], input[type="month"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+input[type="submit"] {
+    font: normal 13pt Arial ;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #0048ff;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #08a94e;
+    transition: 0.5s;
+}

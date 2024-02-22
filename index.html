@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de Recibo Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="titulo">RECIBO CECF</h2>
+    <form id="reciboForm">
+        <label for="instituicao">Instituição:</label><br>
+        <input type="text" id="instituicao" name="instituicao" value="Centro Educacional Caminho do Futuro"><br>
+        <label for="aluno">Aluno(a):</label><br>
+        <input type="text" id="aluno" name="aluno"><br>
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data"><br>
+        <label for="recebemosDe">Nome do Responsável</label><br>
+        <input type="text" id="recebemosDe" name="recebemosDe"><br>
+        <label for="text">Valor:</label><br>
+        <input type="number" id="valor" name="valor"><br>
+        <label for="valorEscrito">Valor por escrito:</label><br>
+        <input type="text" id="valorEscrito" name="valorEscrito" readonly><br>
+        <label for="mes">Mês:</label><br>
+        <input type="month" id="mes" name="mes"><br>
+        <input type="submit" value="Gerar Recibo">
+        
+    </form>
+    <div id="recibo"></div>
+    <script src="script.js"></script>
+</body>
+</html>
